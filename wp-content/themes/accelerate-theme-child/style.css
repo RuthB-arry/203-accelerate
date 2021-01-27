@@ -38,3 +38,19 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+article.case-study {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+aside.case-study-sidebar {
+  width: 50%;
+  float: left;
+}
+.case-study-image {
+  width: 200px;
+  flex-flow: column;
+  border: #45ac9d;
+  border-width: 100px;
+ 
+}
