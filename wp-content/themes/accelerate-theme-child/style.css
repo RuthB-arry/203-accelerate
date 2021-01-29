@@ -20,21 +20,25 @@ Text Domain:  accelerate-theme-child
 }
 .site-content {
   display:flex;
+  width: 100%;
+  
 }
-.featured-work {
-  display:flex
-}
-.featured-work h4 {
-  justify-content: center;
+.site-content h4 {
   text-transform: capitalize;
+  width:100%;
+  justify-content: center;
 }
 
 ul.homepage-featured-work {
-  flex-flow:row;
+  display: flex;
+  justify-content: space-around;
 }
 
 li.individual-featured-work {
   list-style: none;
+  flex-flow: row;
+  justify-content: space-around;
+  width:32%;
 }
 
 .blog-post {
@@ -59,17 +63,32 @@ li.individual-featured-work {
 }
 article.case-study {
   display: flex;
-  flex-flow: row wrap;
-
+  flex-direction: row;
+  justify-content: space-between;
 }
 aside.case-study-sidebar {
-  width: 50%;
-  float: left;
+  width: 35%;
+ 
 }
-.case-study-images {
-  width: 200px;
-  flex-flow: column;
-  border: #45ac9d;
-  border-width: 100px;
-
+.single-case-study-images {
+  width:60%;
+}
+aside.case-study-sidebar h2 {
+  font-family: 'OpenSans';
+  font-weight: 400;
+}
+aside.case-study-sidebar h4 {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  color: #878787;
+}
+strong {
+  color:#45ac9d;
+}
+div.case-study-images img {
+	width: 100%;
+  height: auto;
+}
+.service {
+  font-family: 'OpenSans';
 }
