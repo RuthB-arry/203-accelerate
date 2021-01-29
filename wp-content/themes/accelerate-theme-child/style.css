@@ -18,6 +18,25 @@ Text Domain:  accelerate-theme-child
 .button {
 	background: #45ac9d;
 }
+.site-content {
+  display:flex;
+}
+.featured-work {
+  display:flex
+}
+.featured-work h4 {
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+ul.homepage-featured-work {
+  flex-flow:row;
+}
+
+li.individual-featured-work {
+  list-style: none;
+}
+
 .blog-post {
 	width: 50%;
 	float: left;
@@ -47,7 +66,7 @@ aside.case-study-sidebar {
   width: 50%;
   float: left;
 }
-.case-study-image {
+.case-study-images {
   width: 200px;
   flex-flow: column;
   border: #45ac9d;
