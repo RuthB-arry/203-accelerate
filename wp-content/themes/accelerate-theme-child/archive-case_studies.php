@@ -30,7 +30,7 @@ get_header(); ?>
 						<?php the_excerpt(); ?>
 							<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 					</aside>
-						<div class="archive-case-study-images">
+						<div class="single-case-study-image">
 							<a href="<?php the_permalink(); ?>">
 						<?php if($image_1){
 							echo wp_get_attachment_image( $image_1, $size );

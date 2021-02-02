@@ -23,7 +23,7 @@ get_header(); ?>
 				$image_1 = get_field ('image_1');
 				$image_2 = get_field ('image_2');
 				$image_3 = get_field ('image_3');
-				$size = "medium";
+				$size = "full";
 				?>
 
 				<article class="case-study">
@@ -35,7 +35,7 @@ get_header(); ?>
 						<?php the_content(); ?>
 							<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 					</aside>
-						<div class="single-case-study-images">
+						<div class="single-case-study-image">
 						<?php if($image_1){
 							echo wp_get_attachment_image( $image_1, $size );
 						} ?>
